@@ -1,9 +1,7 @@
 Egypt Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/egypt-project/egypt.svg?branch=master)](https://travis-ci.org/egypt-project/egypt)
-
-https://egypt.org
+https://egyptegy.com
 
 What is Egypt?
 ----------------
@@ -15,7 +13,35 @@ out collectively by the network. Egypt Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Egypt Core software, see [https://egypt.org](https://egypt.org).
+the Egypt Core software, see [https://github.com/EgyptCryptoCoin/egypt.git).
+
+Build and compile
+-----------------
+-- Server must be Ubuntu 18.04 LTS x64
+
+Mining
+------
+-- in /root type those commands >>>
+
+sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm
+
+git clone https://github.com/pooler/cpuminer.git
+
+cd cpuminer
+
+./autogen.sh
+
+./configure CFLAGS="-O3"
+
+make
+
+-- You can get your EGY wallet address by downloading the wallet through that link >>>
+
+https://github.com/EgyptCryptoCoin/Egypt-WebWallet/raw/main/egypt-qt.exe
+
+-- after install type the fooling >>>
+
+./minerd --url=127.0.0.1:5775 --user=coinuser --pass=coinpassword --coinbase-addr=(Your EGY wallet address)
 
 License
 -------
@@ -32,19 +58,11 @@ regularly to indicate new official, stable release versions of Egypt Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The developer [mailing list](https://groups.google.com/forum/#!forum/egypt-dev)
+The developer [mailing list](https://egyptegy.com)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
 Developer IRC can be found on Freenode at #egypt-dev.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
 
 ### Automated Testing
 
@@ -66,15 +84,4 @@ code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
 
-Translations
-------------
-
-We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Egypt periodically.
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-# egypt
+# Egypt EGY
