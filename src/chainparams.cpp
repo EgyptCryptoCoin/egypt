@@ -144,7 +144,7 @@ public:
             boost::assign::map_list_of
             (     0, uint256S("0x661e7485316b482d81a614165a2e5de12127f65a74462984d29dbec0e30f9a3c"))
             (   200, uint256S("0xc3005ef1cab779f5cb30a838671bbaaa0b1f4c25238932c7e96fbaefc8e66d7b"))
-            (  1000, uint256S("0xe520d2b62ff17ff7ef5781141ec55ba423a8d6439bf3e39faf80811e67ac6cf4"))
+            (  2000, uint256S("0x0e1f40215eaaeaeae1c2c8e7de68947904752e411bc8ab53d0d0704fb57e524c"))
 /*          (  3000, uint256S("0x60ea471d9012dacf42c5517e1ae2cc0159c4d5127b1d07da333029a535edf2dc"))
             (  4000, uint256S("0x8d90341ecdf772d483b52661388a5403195a8b0ff386bf5a059bb4ace0cc2b06"))
             (  5000, uint256S("0x0323a34c5bd4604934e269a7526f91f801eec61739194823c9f07d84b4dcb9c9"))
