@@ -1,7 +1,7 @@
 Egypt Core integration/staging tree
 =====================================
 
-https://egyptegy.com
+https://
 
 What is Egypt?
 ----------------
