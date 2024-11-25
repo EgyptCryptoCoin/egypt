@@ -120,7 +120,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x8003134c199a1a05c510e8f8897e281f2195c205edbe70a179f54a7a0e12f1dd"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("138.68.146.95", "138.68.146.95", true));
+        vSeeds.push_back(CDNSSeedData("64.227.39.52", "64.227.39.52", true));
 /*      vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
         vSeeds.push_back(CDNSSeedData("egypttools.com", "dnsseed.egypttools.com"));
         vSeeds.push_back(CDNSSeedData("egyptpool.org", "dnsseed.egyptpool.org"));
@@ -229,7 +229,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("138.68.146.95", "138.68.146.95", true));
+        vSeeds.push_back(CDNSSeedData("64.227.39.52", "64.227.39.52", true));
 /*      vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-b.egypt.loshan.co.uk", true));
         vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed-testnet.thrasher.io", true));
 */
@@ -312,7 +312,7 @@ public:
 
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
-        vSeeds.push_back(CDNSSeedData("138.68.146.95", "138.68.146.95", true));
+        vSeeds.push_back(CDNSSeedData("64.227.39.52", "64.227.39.52", true));
 
 
         fMiningRequiresPeers = false;
